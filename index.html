@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>Simulador de Turnos</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+   <link href="signin.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+    
+    <main id="formulario" class="form-signin w-100 m-auto">
+      <form id="form">
+        <h1 class="h3 mb-3 fw-normal">Turnos online</h1>
+    
+        <div class="form-floating">
+          <input type="name" class="form-control" id="nombre" placeholder="name">
+          <label for="floatingInput">Nombre</label>
+        </div>
+          <div class="form-floating">
+          <input type="name" class="form-control" id="apellido" placeholder="name">
+          <label for="floatingInput">Apellido</label>
+        </div>
+          <div class="form-floating">
+          <input type="age" class="form-control" id="edad" placeholder="edad">
+          <label for="floatingInput">Edad</label>
+        </div>
+        <select id="liEspecialidades" class="form-select form-select-lg" aria-label=".form-select-sm example">
+          <option selected id="especialidades">Especialidades</option>
+          <option>Pediatria</option>
+          <option>Ortodoncista</option>
+          <option>Neurologia</option>
+          <option>Traumatologia</option>
+          <option>Oftalmologia</option>
+          <option>Urologia</option>
+          <option>Medicina</option>
+          <option>Ortodoncista</option>
+          <option>Cardiologia</option>
+          <option>Dermatologia</option>
+        </select>
+        <button class="w-100 btn btn-lg btn-primary" id="button" type="button">Sacar turno</button>
+        <p class="mt-5 mb-3" id="error">Ingrese datos validos</p>
+      </form>
+    </main>
+    <button class="btn btn-lg btn-primary volver" id="buttonBack" type="button">Volver</button>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="/js/app.js"></script>
+  </body>
+</html>
