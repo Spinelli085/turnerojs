@@ -132,13 +132,7 @@ document.querySelector("#error").style.display="none";
     turno.remove();
     document.getElementsByClassName("container");
     container.remove();
-    
-
-
-    
-     
-    
-    
+       
 }
 
     const sacarTurno = document.getElementById("button").onclick = () =>
@@ -180,14 +174,8 @@ document.querySelector("#error").style.display="none";
         document.querySelector("#formulario").style.display="none";
         document.querySelector("#buttonBack").style.display="block";
         
-
-        
-        
         }
         
-       
-        
-
     }
     
     fetch("https://flagcdn.com/es/codes.json")
